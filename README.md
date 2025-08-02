@@ -1,34 +1,29 @@
-# Customer-Sales-Power-BI-Dashboard
-This repository showcases my work from completing the “Complete Guide to Power BI for Data Analysts” course by Microsoft Press. It includes all the hands-on projects, reports, and exercises I built while going through the course.
-## 🎯 What I Learned
+## 📌 Project Overview
 
-### 🔹 Power BI Foundations
-- Power BI Desktop, Service, Mobile
-- Connecting to various data sources (Excel, CSV, SQL, Web)
-- Navigating Power BI interface and views
+As part of the course, I completed a **capstone Power BI project** simulating a real-world analytics scenario for a retail company. This involved building an interactive, end-to-end BI solution using multiple datasets.
 
-### 🔹 Data Preparation (Power Query)
-- Data transformation using Power Query Editor
-- Cleaning, filtering, merging, and appending data
-- Writing M code for custom transformations
+### 🧾 Project Scenario
+Analyze sales performance and customer behavior for a fictional retail company to support business decision-making.
 
-### 🔹 Data Modeling
-- Building relationships and model schema
-- Creating calculated columns and tables
-- Date tables and time-based analysis
-### 🔹 DAX (Data Analysis Expressions)
-- Writing basic and advanced DAX formulas
-- Creating measures and KPIs
-- Implementing time intelligence functions (YTD, MTD, etc.)
+### 🧱 Key Steps
 
-### 🔹 Report Design & Visualization
-- Using charts, maps, matrices, KPIs, and slicers
-- Designing interactive dashboards
-- Using bookmarks, buttons, drill-throughs
+#### 1. Data Import & Transformation (Power Query)
+- Loaded datasets: Sales, Customers, Products, Regions, Calendar
+- Cleaned data: removed nulls, standardized columns
+- Merged tables using joins
+- Created new calculated columns (e.g., Total Revenue)
 
-### 🔹 Publishing & Sharing
-- Publishing reports to Power BI Service
-- Creating dashboards and apps
-- Managing permissions and row-level security
-- Scheduling data refresh with gateways
+#### 2. Data Modeling
+- Created a star schema model
+- Built relationships between fact and dimension tables
+- Added hierarchies (Year > Quarter > Month)
+
+#### 3. DAX Calculations
+- `Total Sales`, `Total Quantity`, `Profit Margin %`, `YoY Growth`
+- Used functions like `CALCULATE`, `SAMEPERIODLASTYEAR`, `DATESYTD`, `FILTER`
+
+#### 4. Report Design
+- Pages: Overview, Sales Trends, Regional Insights, Customer Analysis, Product Analysis
+- Visuals: KPIs, Line Charts, Maps, Pie Charts, Matrix Tables
+- Added slicers, tooltips, drill-throughs, bookmarks, and buttons
   
